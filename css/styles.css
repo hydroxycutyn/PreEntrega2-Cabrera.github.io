@@ -1,0 +1,292 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* Global header */
+#header {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+#header .menu{
+  width: 500px;
+  margin: auto;
+  background-color: black;
+  text-shadow:1px 1px 2px rgb(255, 0, 0)
+}
+#header .menu ul li{
+  margin: auto;
+}
+#header .logo img {
+  width: 150px; 
+  margin: auto;
+  margin-right: 50px;
+}
+#header .logo div a {
+  margin: 0px 0px 0px 0px;
+  color: black;
+  text-decoration: none;
+}
+#header .menu ul li {
+  display: inline-block;
+  padding: 10px;
+}
+#header .menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+#header .menu ul li a:hover {
+  color: red;
+}
+
+#header .titulo a {
+  color: white;
+  text-shadow:1px 1px 10px black;
+}
+#header .titulo {
+  color: white;
+  text-shadow:1px 1px 10px black; 
+}
+
+/* maind */
+
+#intro {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  text-shadow:1px 1px 10px black;
+  padding: 20px;
+}
+#intro .praise a {
+  color: white;
+  text-shadow:1px 1px 10px black;
+}
+
+/* section */
+#goty  {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  text-shadow:1px 1px 2px black;
+  text-align: center;
+}
+#goty .txtgoty h2{
+  background-color: rgb(0, 0, 0);
+  width: 350px;
+  margin: auto;
+}
+#goty .txtgoty h3 {
+  background-color: rgb(0, 0, 0);
+  width: 1000px;
+  margin: auto;
+}
+#goty .txtgoty p a {
+  color: white;
+}
+
+#goty .txtgoty div h4 {
+  background-color: rgb(255, 0, 0);
+}
+#goty .titulo h3{
+  width: 300px;
+  background-color:rgb(0, 0, 0) ;
+  margin: auto ;
+  margin-top: 10px;
+}
+#goty .txtgoty div img {
+  width: 700px; 
+  height: 400px;
+  margin: 0px 0px 0px 0px;
+}
+#goty .txtgoty div img{
+  padding: 1%;
+}
+#goty .txtgoty iframe{
+  width: 700px;
+  height: 400px;
+  padding: 1%;
+}
+#goty .txtgoty p {
+  width: 670px;
+  background-color:rgb(0, 0, 0) ;
+  margin: auto ;
+}
+#goty .txtgoty h4 {
+  width: 150px
+}
+#goty .txtgoty h4{
+  margin: auto;
+  margin-top: 10px;
+}
+#goty .inicio a{
+  color: rgb(245, 245, 245);
+  text-shadow:1px 1px 2px rgb(2, 2, 2);
+}
+#footer {
+  background-color: #000a14; 
+  margin: auto;
+}
+#footer .redes{
+  padding: 20px;
+  text-align: center;
+  margin-right: 65px;
+}
+#footer .redes a{
+  color: white;
+  margin: 10px 0px 0px 50px;
+}
+
+#footer .ahoguera {
+  text-align: center;
+}
+#footer .ahoguera img {
+  width: 150px;
+  height: 100px;
+  margin: auto;
+}
+#mainnosotros .textonosotros h1{
+text-align: center;
+}
+#mainnosotros .textonosotros p{
+  text-align: center;
+  }
+  #mainnosotros .imagendarksouls {
+    text-align: center;
+  }
+#mainnosotros .imagendarksouls img {
+  width: 600px;
+}
+#mainnosotros .imagendarksouls img { 
+  width: 700px;
+  height: 400px;
+  padding: 1%;
+}
+#mainnosotros {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+#mainnosotros .textonosotros h1 {
+  width: 170px;
+  margin: auto;
+  color: white;
+  background-color: black;
+}
+#mainnosotros .textonosotros p {
+  width: 400px;
+  margin: auto;
+  color: white;
+  background-color: black;
+}
+#mainnosotros {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+#demasiadotexto {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+#demasiadotexto {
+width: auto;
+margin: auto;
+text-align: center;
+}
+#demasiadotexto p {
+color: rgb(255, 255, 255);
+background-color: black;
+}
+#demasiadotexto h1{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#muchotexto {
+  background-image: url(../img/arbol\ aurio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+#muchotexto {
+width: auto;
+margin: auto;
+text-align: center;
+}
+#muchotexto h1 {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  }
+#muchotexto p {
+color: rgb(255, 254, 254);
+background-color: black;
+}
+
+#noticias {
+    background-image: url(../img/arbol\ aurio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+#noticias {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+#noticias p {
+  color: rgb(255, 251, 251);
+  background-color: black;
+}
+#noticias h1{
+  background-color: rgb(0, 0, 0);
+  color: rgb(252, 243, 243);
+}
+#juegossection {
+  background-image: url(../img/arbol\ aurio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+#juegossection a {
+  color: white;
+  }
+
+
+
+
+
+
+
+
