@@ -277,16 +277,28 @@ background-color: black;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    padding: 20px;
+    padding: 20px;   
 }
 #juegossection a {
   color: white;
   }
 
+  /* pagina de juegos  */
 
-
-
-
-
-
-
+  #muchotexto .flex-container {
+  display: flex;
+  gap: 20px 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.flex-item {
+  width:720px;
+}
+.flex-item p a {
+color: white;
+}
+#muchotexto .flex-item img { 
+  width: 100%;
+  height: auto;
+}
